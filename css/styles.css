@@ -4,7 +4,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 .nav-item {
-	border: 10px solid;
+	border: 10px;
+	border-color: #3786C6;
 	margin: 10px;
 	margin-right: 20px;
 	margin-left: 20px;
@@ -26,7 +27,7 @@
 .nav-item {
     border: 2px solid black; /* Adjusted the border thickness */
     border-radius: 5px;      /* This will round the corners */
-	border-color: #3786C6;
+    border-color: #3786C6;
     margin: 10px;
     margin-right: 20px;
     margin-left: 20px;
@@ -45,8 +46,8 @@ body{
 }
 
 img {
-  pointer-events: none;
-}
+	pointer-events: none;
+}  
 
 #guitarra{
 	margin-top: 20px;
@@ -64,4 +65,27 @@ img {
 	left: 0%;
 	z-index: -1;
 	width: 15%;
+}
+
+.h1-title {
+	background-color: #185586;
+	color: white;
+}
+
+.move-down {
+	margin-top: 60%;
+}
+
+.back-image{
+	position:absolute;
+	
+}
+
+h3 {
+	color: #185586;
+	font-weight: bold;
+}
+
+form{
+	background-color: #3786C6;
 }

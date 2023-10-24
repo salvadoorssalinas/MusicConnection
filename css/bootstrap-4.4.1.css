@@ -4330,7 +4330,6 @@ input[type="button"].btn-block {
   -ms-flex-pack: justify;
   justify-content: space-between;
   padding: 0.5rem 1rem;
-	margin:;
 }
 
 .navbar .container,
@@ -4736,7 +4735,7 @@ input[type="button"].btn-block {
   background-color: #fff;
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
-  border-radius: 0.25rem;
+  border-radius: 2rem;
 }
 
 .card > hr {
@@ -4852,7 +4851,7 @@ input[type="button"].btn-block {
   margin-bottom: 15px;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 650px) {
   .card-deck {
     display: -ms-flexbox;
     display: flex;
@@ -5242,8 +5241,10 @@ a.badge-dark:focus, a.badge-dark.focus {
 }
 
 .jumbotron {
+  padding: 2rem 1rem;
   margin-bottom: 2rem;
   background-color: #e9ecef;
+  border-radius: 0.3rem;
 }
 
 @media (min-width: 576px) {
