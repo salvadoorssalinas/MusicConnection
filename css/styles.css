@@ -65,3 +65,14 @@ img {
 	z-index: -1;
 	width: 15%;
 }
+
+.h1-title {
+	background-color: #185586;
+	color: white;
+}
+
+.equal-height{
+	height: 120px;
+	object-fit: cover;
+	width: auto;
+}
