@@ -1,0 +1,91 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.nav-item {
+	border: 10px;
+	border-color: #3786C6;
+	margin: 10px;
+	margin-right: 20px;
+	margin-left: 20px;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+.no-padding {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.img-fit {
+    object-fit: cover;
+    height: 100%;
+    object-position: center;
+}
+
+.nav-item {
+    border: 2px solid black; /* Adjusted the border thickness */
+    border-radius: 5px;      /* This will round the corners */
+    border-color: #3786C6;
+    margin: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    transition: border-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.nav-item:hover {
+    border-color: #ddd;  /* Change border color on hover */
+}
+
+body{
+	font-family: 'Roboto', sans-serif;
+	overflow-x: hidden;
+}
+
+img {
+	pointer-events: none;
+}  
+
+#guitarra{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+
+.dark-blue {
+	background-color:#185586
+}
+
+.circulo {
+	position: absolute;
+	top: 60%;
+	left: 0%;
+	z-index: -1;
+	width: 15%;
+}
+
+.h1-title {
+	background-color: #185586;
+	color: white;
+}
+
+.move-down {
+	margin-top: 60%;
+}
+
+.back-image{
+	position:absolute;
+	
+}
+
+h3 {
+	color: #185586;
+	font-weight: bold;
+}
+
+form{
+	background-color: #3786C6;
+}
