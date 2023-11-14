@@ -1,0 +1,145 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.nav-item {
+	border: 10px;
+	border-color: #3786C6;
+	margin: 10px;
+	margin-right: 20px;
+	margin-left: 20px;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+.no-padding {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.img-fit {
+    object-fit: cover;
+    height: 100%;
+    object-position: center;
+}
+
+.nav-item {
+    border: 2px solid black; /* Adjusted the border thickness */
+    border-radius: 5px;      /* This will round the corners */
+    border-color: #3786C6;
+    margin: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    transition: border-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.nav-item:hover {
+    border-color: #ddd;  /* Change border color on hover */
+}
+
+body{
+	font-family: 'Roboto', sans-serif;
+	overflow-x: hidden;
+}
+
+img {
+	pointer-events: none;
+}  
+
+#guitarra{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.margenbottom0 {
+	margin-bottom: 0px;
+}
+
+.dark-blue {
+	background-color:#185586
+}
+
+.circulo {
+	position: absolute;
+	top: 60%;
+	left: 0%;
+	z-index: -1;
+	width: 15%;
+}
+
+.fondo-nosotros {
+	background-color: #81b9e7;	
+}
+
+.fondo-caracteristicas {
+	background-image: linear-gradient(#ededed, #198eb4);
+}
+
+.fondo-contactanos {
+	background-image: linear-gradient(#1f6aa8, #198eb4);
+}
+
+.fondo-descargas {
+	background-image: linear-gradient(#5198d3, #064053);
+}
+
+.titulo-claro {
+	color: #ffffff;
+}
+
+.h1-title {
+	background-color: #185586;
+	color: #ffffff;
+}
+
+.move-down {
+	margin-top: 60%;
+}
+
+.back-image{
+	position:absolute;
+	
+}
+
+h3 {
+	color: #185586;
+	font-weight: bold;
+}
+
+.form {
+	background-color: #79b7eb;
+	
+}
+
+/* Video de youtube responsive */
+.video {
+	height: 0;
+	overflow: hidden;
+	padding-bottom: 36.25%;
+	padding-top: 30px;
+	position: relative;
+}
+
+.video iframe {
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+
+/* Para animación de desvanecimiento (fade) */
+.fade-in {
+	opacity: 0;
+	transition: opacity 1s ease-in-out;
+}
+
+/* Para animación de deslizar desde abajo hacia arriba */
+.slide-up {
+	opacity: 0;
+	transform: translateY(20px);
+	transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+}
